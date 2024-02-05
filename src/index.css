@@ -1,13 +1,35 @@
-body {
-  margin: 0;
+@font-face {
+  font-family: Kotori;
+  src: url(./fonts/KotoriRose-Bold.otf);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {    
+  height:100vh;  
+  margin: auto 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(./assets/hero_petr_sevcovic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.hero_title{
+  color: white;
+  font-family: Kotori;
+  font-size:5rem;
+}
+

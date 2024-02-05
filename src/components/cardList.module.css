@@ -1,0 +1,9 @@
+.card_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:90%;   
+    height:1000px;
+    margin:7rem auto 1rem auto;
+    background:#01010a8a;
+}
