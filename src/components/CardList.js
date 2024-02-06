@@ -12,7 +12,8 @@ const CardList = ({ bowls }) => {
             <Card
               key={bowl.id}
               id={bowl.id}
-              name={bowl.name}          
+              name={bowl.name} 
+              link={bowl.link}         
             />
           );
         })}

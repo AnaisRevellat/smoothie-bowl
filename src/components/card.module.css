@@ -1,15 +1,20 @@
-
-.card_box{ 
-    border: 1px solid black;
-    width: 380px;;
-    height:400px;
-    margin: 0 0.5rem 0 0.5rem;
-    text-align: center;
-    border-radius: 50px;
-    background:rgba(221, 212, 212, 0.699);
-    transition: all 0.3s ease-in-out;
+.card_box {
+  border: 1px solid black;
+  width: 380px;
+  height: 400px;
+  margin: 0 0.5rem 0 0.5rem;
+  text-align: center;
+  border-radius: 50px;
+  background: rgba(221, 212, 212, 0.699);
+  transition: all 0.3s ease-in-out;
 }
 
-.card_box:hover{
-    transform: scale(1.1);
+.card_box:hover {
+  transform: scale(1.1);
+}
+
+.bowl_img_container {
+}
+
+.bowl_img_container img {
 }

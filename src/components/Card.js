@@ -1,10 +1,12 @@
 import React from "react";
 import styles from "./card.module.css";
 
-const Card = ({ id, name, email }) => {
+const Card = ({ id, name, email, link }) => {
   return (
     <div className={styles.card_box}>
-      <img src={`https://robohash.org/${id}?200x200`} alt="bowl card" />
+      <div className={styles.bowl_img_container}>
+        <img src={link} alt="bowl card" />
+      </div>
       <div>
         <h2>{name}</h2>
         <p>{email}</p>
