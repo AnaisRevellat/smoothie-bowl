@@ -9,17 +9,20 @@
 
 
 body {    
-  height:100vh;  
+  height:95vh;  
   margin: auto 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(./assets/hero_petr_sevcovic.jpg);
-  background-size: cover;
+  background-image: url(./assets/petr-sevcovic_background.jpg);
+  background-size: cover;  
   background-repeat: no-repeat; 
-  overflow: hidden;
+  background-color:black;
+  overflow-y: auto;  
+  
+  
 }
 
 code {

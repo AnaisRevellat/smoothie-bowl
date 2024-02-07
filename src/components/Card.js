@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./card.module.css";
 
-const Card = ({ id, name, email, link }) => {
+const Card = ({ id, name, price, link }) => {
   return (
     <div className={styles.card_box}>
       <div className={styles.bowl_img_container}>
@@ -9,7 +9,7 @@ const Card = ({ id, name, email, link }) => {
       </div>
       <div>
         <h2>{name}</h2>
-        <p>{email}</p>
+        <p>{price} €</p>
       </div>
     </div>
   );
