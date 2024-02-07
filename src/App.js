@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import CardList from "./components/CardList";
 import SearchBox from "./components/SearchBox";
 import styles from "./app.module.css";
+import ErrorBoudry from "./components/ErrorBoundry";
 
 class App extends Component {
   constructor() {
@@ -32,12 +33,15 @@ class App extends Component {
         .toLowerCase()
         .includes(this.state.searchfield.toLowerCase());
     })
-      
-    return (
+    return !this.state.products.length ? (
+      <h1>LOADING</h1>
+    ) : (
       <div className={styles.main_container}>
         <h1 className={styles.hero_title}>Smoothie Bowl</h1>
         <SearchBox searchChange={this.onSearchChange} />
+        <ErrorBoudry>
         <CardList bowls={filteredBowls} />
+        </ErrorBoudry>
       </div>
     );
   }

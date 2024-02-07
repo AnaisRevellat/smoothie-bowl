@@ -4,6 +4,9 @@ import Card from "./Card";
 import styles from "./cardList.module.css";
 
 const CardList = ({ bowls }) => {
+  // if(true){
+  //   throw new Error('There is an issue')
+  // }
   return (
     <>
       <div className={styles.card_container}>
