@@ -1,14 +1,19 @@
 .input_container{
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
+    width:60%;     
+    caret-color: #3465ee;  
+
 }
 
 .input_container input{
     padding:1rem;
-    background: #f0ebf7;
-    border: 1px solid #eee;
-    outline: 1px solid #698ef3;
+    background: #111010;
+    border: 1px solid #2d323a;
+    outline: 1px solid #3465ee;
     border-radius: 20px;
-    width: 40%;
+    width: 100%;
+    font-size: 1.5rem;
+    color:white;
 }

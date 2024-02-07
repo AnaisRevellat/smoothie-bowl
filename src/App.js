@@ -31,10 +31,11 @@ class App extends Component {
       return bowl.name
         .toLowerCase()
         .includes(this.state.searchfield.toLowerCase());
-    });
+    })
+      
     return (
       <div className={styles.main_container}>
-        <h1 className="hero_title">Smoothie Bowl</h1>
+        <h1 className={styles.hero_title}>Smoothie Bowl</h1>
         <SearchBox searchChange={this.onSearchChange} />
         <CardList bowls={filteredBowls} />
       </div>
