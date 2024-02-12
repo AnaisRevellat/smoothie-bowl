@@ -18,7 +18,6 @@ class App extends Component {
       .then((response) => response.json())
       .then((products) => this.setState({ products: products }));
   }
-
   //here it is necessary to use an arrow function for SearchBox to have "this" in the right context
 
   onSearchChange = (ev) => {
