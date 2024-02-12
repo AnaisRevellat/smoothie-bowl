@@ -1,3 +1,6 @@
+This project is visible here: https://anaisrevellat.github.io/smoothie-bowl/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
