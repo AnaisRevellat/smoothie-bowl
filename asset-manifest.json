@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AnaisRevellat/smoothie-bowl/static/css/main.362b82a0.css",
-    "main.js": "/AnaisRevellat/smoothie-bowl/static/js/main.49db2cb0.js",
-    "static/js/787.37deda13.chunk.js": "/AnaisRevellat/smoothie-bowl/static/js/787.37deda13.chunk.js",
-    "static/media/petr-sevcovic_background.jpg": "/AnaisRevellat/smoothie-bowl/static/media/petr-sevcovic_background.840ecce75324eeaea7e6.jpg",
-    "static/media/KotoriRose-Bold.otf": "/AnaisRevellat/smoothie-bowl/static/media/KotoriRose-Bold.d2ee9929df5213400417.otf",
-    "index.html": "/AnaisRevellat/smoothie-bowl/index.html",
-    "main.362b82a0.css.map": "/AnaisRevellat/smoothie-bowl/static/css/main.362b82a0.css.map",
-    "main.49db2cb0.js.map": "/AnaisRevellat/smoothie-bowl/static/js/main.49db2cb0.js.map",
-    "787.37deda13.chunk.js.map": "/AnaisRevellat/smoothie-bowl/static/js/787.37deda13.chunk.js.map"
+    "main.css": "/smoothie-bowl/static/css/main.85211fe8.css",
+    "main.js": "/smoothie-bowl/static/js/main.b53b078e.js",
+    "static/js/787.37deda13.chunk.js": "/smoothie-bowl/static/js/787.37deda13.chunk.js",
+    "static/media/petr-sevcovic_background.jpg": "/smoothie-bowl/static/media/petr-sevcovic_background.840ecce75324eeaea7e6.jpg",
+    "static/media/KotoriRose-Bold.otf": "/smoothie-bowl/static/media/KotoriRose-Bold.d2ee9929df5213400417.otf",
+    "index.html": "/smoothie-bowl/index.html",
+    "main.85211fe8.css.map": "/smoothie-bowl/static/css/main.85211fe8.css.map",
+    "main.b53b078e.js.map": "/smoothie-bowl/static/js/main.b53b078e.js.map",
+    "787.37deda13.chunk.js.map": "/smoothie-bowl/static/js/787.37deda13.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.362b82a0.css",
-    "static/js/main.49db2cb0.js"
+    "static/css/main.85211fe8.css",
+    "static/js/main.b53b078e.js"
   ]
 }
